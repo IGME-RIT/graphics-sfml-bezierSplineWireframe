@@ -1,0 +1,30 @@
+﻿Build started 6/1/2016 1:12:31 PM.
+     1>Project "Z:\IGMProfile\Documents\Tutorials\Graphics\Bezier_Spline_Wireframe-SFML\Bezier_Spline_Wireframe-SFML\Bezier_Spline_Wireframe-SFML.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt B_Spline.cpp CameraManager.cpp Init_Shader.cpp InputManager.cpp Patch.cpp RenderManager.cpp RenderShape.cpp main.cpp
+         main.cpp
+     1>z:\igmprofile\documents\tutorials\graphics\bezier_spline_wireframe-sfml\bezier_spline_wireframe-sfml\main.cpp(273): warning C4305: 'initializing' : truncation from 'double' to 'GLfloat'
+         RenderShape.cpp
+         RenderManager.cpp
+         Patch.cpp
+         InputManager.cpp
+     1>z:\igmprofile\documents\tutorials\graphics\bezier_spline_wireframe-sfml\bezier_spline_wireframe-sfml\inputmanager.cpp(52): warning C4018: '<' : signed/unsigned mismatch
+         Init_Shader.cpp
+         CameraManager.cpp
+         B_Spline.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Z:\IGMProfile\Documents\Tutorials\Graphics\Bezier_Spline_Wireframe-SFML\Debug\Bezier_Spline_Wireframe-SFML.exe" /INCREMENTAL /NOLOGO freetype.lib glew.lib glew32.lib jpeg.lib opengl32.lib openal32.lib "sfml-audio.lib" "sfml-audio-d.lib" "sfml-audio-s.lib" "sfml-audio-s-d.lib" "sfml-graphics.lib" "sfml-graphics-d.lib" "sfml-graphics-s.lib" "sfml-graphics-s-d.lib" "sfml-main.lib" "sfml-main-d.lib" "sfml-network.lib" "sfml-network-d.lib" "sfml-network-s.lib" "sfml-network-s-d.lib" "sfml-system.lib" "sfml-system-d.lib" "sfml-system-s.lib" "sfml-system-s-d.lib" "sfml-window.lib" "sfml-window-d.lib" "sfml-window-s.lib" "sfml-window-s-d.lib" sndfile.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"Z:\IGMProfile\Documents\Tutorials\Graphics\Bezier_Spline_Wireframe-SFML\Debug\Bezier_Spline_Wireframe-SFML.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Z:\IGMProfile\Documents\Tutorials\Graphics\Bezier_Spline_Wireframe-SFML\Debug\Bezier_Spline_Wireframe-SFML.lib" /MACHINE:X86 Debug\B_Spline.obj
+         Debug\CameraManager.obj
+         Debug\Init_Shader.obj
+         Debug\InputManager.obj
+         Debug\main.obj
+         Debug\Patch.obj
+         Debug\RenderManager.obj
+         Debug\RenderShape.obj
+         Bezier_Spline_Wireframe-SFML.vcxproj -> Z:\IGMProfile\Documents\Tutorials\Graphics\Bezier_Spline_Wireframe-SFML\Debug\Bezier_Spline_Wireframe-SFML.exe
+     1>Done Building Project "Z:\IGMProfile\Documents\Tutorials\Graphics\Bezier_Spline_Wireframe-SFML\Bezier_Spline_Wireframe-SFML\Bezier_Spline_Wireframe-SFML.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:15.15
